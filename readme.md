@@ -42,7 +42,7 @@ filename = None #Use this setup to use the set of file keywords available in the
 filename = "filename" #Use this setup to search for a particular file
 
 attacker, target= "Syre Musk", "Konoha"
-search = CredentialSearcher(attacker = attacker, target = target).byakugan(filename)
+search = CredentialSearcher(attacker, target).byakugan(filename)
 ```
 
 ## Run
